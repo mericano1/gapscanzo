@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# archive photos live on Cloudflare R2; only the hand-picked site assets stay in git
+/public/media/*
+!/public/media/site/
+!/public/media/uploads/

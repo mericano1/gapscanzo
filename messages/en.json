@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "description": "Gruppo Alpinistico Presolana, the mountaineering club of Scanzorosciate: hiking, alpinism, climbing, ski touring and youth activities since 1967."
+  },
+  "nav": {
+    "about": "About us",
+    "activities": "Activities",
+    "calendar": "Calendar",
+    "news": "News",
+    "blog": "Blog",
+    "contacts": "Contact",
+    "history": "Our history",
+    "board": "The board",
+    "statute": "Statute",
+    "nodo": "Il Nodo",
+    "join": "Join us",
+    "menu": "Menu",
+    "close": "Close menu",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "home": {
+    "title": "The GAP crew, since 1967",
+    "lead": "Hikers, alpinists, ski tourers and young climbers: the mountains bring us together, from the Orobie to the peaks of the Alps.",
+    "ctaJoin": "Join us",
+    "ctaCalendar": "See the calendar",
+    "upcoming": "Upcoming outings",
+    "noUpcoming": "No outings scheduled right now. The calendar is updated with each new season.",
+    "allEvents": "Full calendar",
+    "activities": "What we do",
+    "featured": "Featured",
+    "allNews": "All news",
+    "quote": "When men and mountains meet, great things happen.",
+    "quoteAuthor": "William Blake",
+    "joinTitle": "Come and visit our clubhouse",
+    "joinText": "You can find us in Scanzorosciate. Find out how to become a member and which outings we run through the year."
+  },
+  "common": {
+    "readMore": "Read",
+    "allNews": "All news",
+    "published": "Published on",
+    "until": "until",
+    "from": "from",
+    "to": "to",
+    "past": "Past outings",
+    "upcoming": "Upcoming outings",
+    "backTo": "Back to",
+    "contacts": "Contacts",
+    "gallery": "Gallery",
+    "noEvents": "No events.",
+    "pageNotFound": "Page not found",
+    "pageNotFoundText": "The link may have changed after the site was rebuilt.",
+    "goHome": "Go to the home page",
+    "where": "Where",
+    "contact": "Contact",
+    "cost": "Cost",
+    "italianOnly": "This page is only available in Italian."
+  },
+  "footer": {
+    "tagline": "Gruppo Alpinistico Presolana, Scanzorosciate since 1967.",
+    "sede": "Clubhouse",
+    "explore": "Explore",
+    "rights": "Gruppo Alpinistico Presolana"
+  },
+  "contactsPage": {
+    "intro": "If you’d like to get to know us, chat about the mountains or find information for your weekend outings, come and visit.",
+    "sede": "The clubhouse",
+    "where": "Via Galimberti 12B, Scanzorosciate (BG), inside the Parco del Sole.",
+    "hours": "Open Tuesday and Friday, from 9:00 pm to 10:30 pm.",
+    "people": "Contact people",
+    "writeUs": "Write to us",
+    "follow": "Follow us on Facebook",
+    "links": "Useful links",
+    "comune": "Comune di Scanzorosciate",
+    "weather": "Weather in Scanzorosciate",
+    "map": "Map of the GAP clubhouse"
+  },
+  "nodoPage": {
+    "archive": "All issues",
+    "issue": "Issue"
+  }
+}

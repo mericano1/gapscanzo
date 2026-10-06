@@ -9,18 +9,29 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@keystatic/core": "^0.6.9",
+    "@keystatic/next": "^5.0.5",
+    "@markdoc/markdoc": "^0.4.0",
     "next": "16.3.8",
+    "next-intl": "^4.14.9",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/turndown": "^5.0.6",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
+    "he": "^1.2.0",
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
     "typescript": "^5"
   },
   "packageManager": "pnpm@10.32.1"

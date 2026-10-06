@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "description": "Il Gruppo Alpinistico Presolana di Scanzorosciate: escursionismo, alpinismo, arrampicata, scialpinismo e attività per i giovani dal 1967."
+  },
+  "nav": {
+    "about": "Chi siamo",
+    "activities": "Attività",
+    "calendar": "Calendario",
+    "news": "News",
+    "blog": "Blog",
+    "contacts": "Contatti",
+    "history": "La storia",
+    "board": "Il consiglio",
+    "statute": "Lo statuto",
+    "nodo": "Il Nodo",
+    "join": "Unisciti a noi",
+    "menu": "Menu",
+    "close": "Chiudi il menu",
+    "language": "Lingua",
+    "skip": "Vai al contenuto"
+  },
+  "home": {
+    "title": "Quelli del GAP, dal 1967",
+    "lead": "Escursionisti, alpinisti, scialpinisti, giovani arrampicatori: ci uniscono le montagne, dalle Orobie alle cime delle Alpi.",
+    "ctaJoin": "Unisciti a noi",
+    "ctaCalendar": "Vedi il calendario",
+    "upcoming": "Prossime uscite",
+    "noUpcoming": "Nessuna uscita in programma al momento. Il calendario si aggiorna con la nuova stagione.",
+    "allEvents": "Tutto il calendario",
+    "activities": "Cosa facciamo",
+    "featured": "In evidenza",
+    "allNews": "Tutte le news",
+    "quote": "Quando uomini e montagne si incontrano, grandi cose accadono.",
+    "quoteAuthor": "William Blake",
+    "joinTitle": "Vieni a trovarci in sede",
+    "joinText": "Ci trovi a Scanzorosciate. Scopri come associarti e quali uscite organizziamo durante l’anno."
+  },
+  "common": {
+    "readMore": "Leggi",
+    "allNews": "Tutte le news",
+    "published": "Pubblicato il",
+    "until": "fino al",
+    "from": "dalle",
+    "to": "alle",
+    "past": "Uscite passate",
+    "upcoming": "Prossime uscite",
+    "backTo": "Torna a",
+    "contacts": "Referenti",
+    "gallery": "Galleria",
+    "noEvents": "Nessun evento.",
+    "pageNotFound": "Pagina non trovata",
+    "pageNotFoundText": "Il link potrebbe essere cambiato dopo il rinnovo del sito.",
+    "goHome": "Vai alla home page",
+    "where": "Dove",
+    "contact": "Referente",
+    "cost": "Costo",
+    "italianOnly": "Questa pagina è disponibile solo in italiano."
+  },
+  "footer": {
+    "tagline": "Gruppo Alpinistico Presolana, Scanzorosciate dal 1967.",
+    "sede": "Sede",
+    "explore": "Esplora",
+    "rights": "Gruppo Alpinistico Presolana"
+  },
+  "contactsPage": {
+    "intro": "Se hai voglia di conoscerci, di chiacchierare di montagna o di trovare informazioni per le tue uscite domenicali, vieni a trovarci.",
+    "sede": "La sede",
+    "where": "Via Galimberti 12B, Scanzorosciate (BG), all’interno del Parco del Sole.",
+    "hours": "Aperta il martedì e il venerdì, dalle 21:00 alle 22:30.",
+    "people": "Referenti",
+    "writeUs": "Scrivici",
+    "follow": "Seguici su Facebook",
+    "links": "Link utili",
+    "comune": "Comune di Scanzorosciate",
+    "weather": "Meteo a Scanzorosciate",
+    "map": "Mappa della sede del GAP"
+  },
+  "nodoPage": {
+    "archive": "Tutti i numeri",
+    "issue": "Numero"
+  }
+}

@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { Link } from '@/i18n/navigation';
 import { fmtDate, getNews } from '@/lib/content';
 
@@ -17,7 +18,7 @@ export default async function NewsIndex({ params }: { params: Promise<{ locale: 
   const byYear = Map.groupBy(news, (n) => n.entry.date!.slice(0, 4));
   return (
     <>
-      <PageHeading title={t('news')} />
+      <PageHeading title={t('news')} image={heroImage('news')} />
       <div className="mx-auto max-w-3xl px-4 py-10">
         {[...byYear.entries()].map(([year, items]) => (
           <section key={year} className="mb-10">

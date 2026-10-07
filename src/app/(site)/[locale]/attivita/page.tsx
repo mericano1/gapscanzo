@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { Photo } from '@/components/Photo';
 import { Link } from '@/i18n/navigation';
 import { activityTiles } from '@/lib/content';
@@ -15,7 +16,7 @@ export default async function Activities({ params }: { params: Promise<{ locale:
   const lang = locale === 'en' ? 'en' : 'it';
   return (
     <>
-      <PageHeading title={t('activities')} />
+      <PageHeading title={t('activities')} image={heroImage('attivita')} />
       <ul className="mx-auto grid max-w-6xl gap-4 px-4 py-10 sm:grid-cols-2 lg:grid-cols-3">
         {activityTiles.map((a) => (
           <li key={a.slug}>

@@ -312,7 +312,8 @@ for (const p of ofType('page')) {
       contacts: contacts(m),
       gallery: gallery(m),
     },
-    toMarkdown(p.content),
+    // The banner photo that opened each old page is now the page header (src/lib/heroes.ts).
+    toMarkdown(p.content).replace(/^!\[[^\]]*\]\([^)]*\/(testata[^/)]*|unisciti_a_noi_testata2|corsa-montagna|home_fondo)\.webp\)\n\n?/, ''),
   );
   counts[kind] = (counts[kind] || 0) + 1;
 }

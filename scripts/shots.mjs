@@ -1,4 +1,5 @@
-// Dev helper: screenshots of key routes at desktop + mobile widths. Usage: node scripts/shots.mjs <outDir> [route...]
+// Dev helper: screenshots of key routes at desktop + mobile widths. Usage: [TOP=1] node scripts/shots.mjs <outDir> [route...]
+// TOP=1 captures only the first screen instead of the full page.
 import { chromium } from 'playwright';
 import path from 'node:path';
 
@@ -19,7 +20,7 @@ for (const [name, viewport] of Object.entries(sizes)) {
     });
     await page.waitForTimeout(400);
     const file = path.join(out, `${route === '/' ? 'home' : route.replace(/\W+/g, '-').replace(/^-|-$/g, '')}-${name}.png`);
-    await page.screenshot({ path: file, fullPage: true });
+    await page.screenshot({ path: file, fullPage: !process.env.TOP });
     console.log(file);
   }
 }

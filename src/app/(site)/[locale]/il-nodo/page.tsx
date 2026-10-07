@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Extras } from '@/components/Extras';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { reader, renderMarkdoc } from '@/lib/content';
 import nodo from '../../../../../data/nodo.json';
 
@@ -33,7 +34,7 @@ export default async function Nodo({ params }: { params: Promise<{ locale: strin
 
   return (
     <>
-      <PageHeading title="Il Nodo" />
+      <PageHeading title="Il Nodo" image={heroImage('il-nodo')} />
       <div className="mx-auto max-w-4xl px-4 py-10">
         {body && <div className="prose prose-lg prose-gap">{body}</div>}
         <h2 className="mt-12 text-2xl font-extrabold">{t('archive')}</h2>

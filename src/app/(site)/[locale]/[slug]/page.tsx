@@ -3,6 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { ItalianOnly } from '@/components/ItalianOnly';
 import { Extras } from '@/components/Extras';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { reader, renderMarkdoc } from '@/lib/content';
 
 export async function generateStaticParams() {
@@ -22,7 +23,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const body = await renderMarkdoc((en ?? entry).content);
   return (
     <>
-      <PageHeading title={(en ?? entry).title} />
+      <PageHeading title={(en ?? entry).title} image={heroImage(slug)} />
       <div className="mx-auto max-w-6xl px-4 py-10">
         {locale === 'en' && !en && <ItalianOnly />}
         <div className="prose prose-lg prose-gap">{body}</div>

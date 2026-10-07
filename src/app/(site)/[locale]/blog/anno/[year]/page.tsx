@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { PostList } from '@/components/PostList';
 import { YearNav } from '@/components/YearNav';
 import { getBlogByYear } from '@/lib/content';
@@ -22,7 +23,7 @@ export default async function BlogYear({ params }: { params: Promise<{ locale: s
   if (!posts) notFound();
   return (
     <>
-      <PageHeading title={`${t('blog')} ${year}`} />
+      <PageHeading title={`${t('blog')} ${year}`} image={heroImage('blog')} />
       <div className="mx-auto max-w-4xl px-4 py-10">
         <YearNav years={years.map(([y, items]) => [y, items.length])} current={year} />
         <div className="mt-8">

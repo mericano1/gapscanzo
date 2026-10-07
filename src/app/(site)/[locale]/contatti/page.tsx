@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { reader } from '@/lib/content';
 import { site } from '@/lib/site';
 
@@ -15,7 +16,7 @@ export default async function Contacts({ params }: { params: Promise<{ locale: s
   const link = 'text-roccia underline underline-offset-4';
   return (
     <>
-      <PageHeading title={n('contacts')} lead={t('intro')} />
+      <PageHeading title={n('contacts')} lead={t('intro')} image={heroImage('contatti')} />
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 lg:grid-cols-2">
         <div className="space-y-10">
           <section>

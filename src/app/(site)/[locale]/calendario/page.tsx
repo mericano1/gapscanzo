@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { EventRow } from '@/components/EventRow';
 import { PageHeading } from '@/components/PageHeading';
+import { heroImage } from '@/lib/heroes';
 import { getEvents } from '@/lib/content';
 
 export const revalidate = 3600;
@@ -23,7 +24,7 @@ export default async function Calendar({ params }: { params: Promise<{ locale: s
   );
   return (
     <>
-      <PageHeading title={t('nav.calendar')} />
+      <PageHeading title={t('nav.calendar')} image={heroImage('calendario')} />
       <div className="mx-auto max-w-3xl px-4 py-10">
         <h2 className="text-2xl font-extrabold">{t('common.upcoming')}</h2>
         {upcoming.length ? <ul className="mt-3 border-t border-roccia/15">{upcoming.map(row)}</ul> : <p className="mt-3 text-notte/70">{t('home.noUpcoming')}</p>}

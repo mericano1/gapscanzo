@@ -1,0 +1,7 @@
+# Photo archive is served from Blob (MEDIA_BASE); only public/media/site ships with the build.
+/public/media/*
+!/public/media/site
+.next
+node_modules
+.env.local
+.git
